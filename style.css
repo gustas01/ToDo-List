@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    /* align-items: center; */
+    background-color: gray;
+}
+
+/* FORMULARIO PARA SE ADICIONAR TAREFAS */
+main{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 40px 0px 0px 30px;
+}
+
+.tarefa, .adicionar{
+    padding: 3px;
+}
+
+.tarefa{
+    width: 60%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input{
+    border-radius: 10px;
+    outline: none;
+}
+
+.adicionar{
+    background-color: green;
+    border-radius: 10px;
+    width: 25%;
+    outline: none;
+}
+
+/* TABELA COM AS TAREFAS A FAZER */
+section{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        margin-top: 30px;
+}
+
+
+#tabelaDeTarefas tr:nth-child(even){ /*colocando esse background nas linhas pares da tabela*/
+    background-color: #aaa;
+}
