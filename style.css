@@ -60,3 +60,15 @@ section{
 #tabelaDeTarefas tr:nth-child(even){ /*colocando esse background nas linhas pares da tabela*/
     background-color: #aaa;
 }
+
+
+/*BARRA DE PROGRESSO*/
+#barraDeProgresso{
+    position: absolute;
+    left: calc(100% - 200px);
+    top: 5px;
+}
+
+.sumirBarraDeProgresso{
+    display: none;
+}
